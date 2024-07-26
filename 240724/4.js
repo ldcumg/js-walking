@@ -3,11 +3,11 @@ const lion = { 이름: "심바", 나이: 3, 주인공: true, 대사: "하쿠나�
 
 // 나이를 추가하는 함수입니다.
 function incrementAge(lion) {
-    return Object.assign({}, lion, { 나이: lion.나이 += 1 });
+    lion.나이 = lion.나이 + 1;
+    return lion;
+    // return Object.assign({}, lion, { 나이: lion.나이 += 1 });
 }
 // 함수 실행 이후 사자의 현재 나이를 출력합니다.
-console.log(incrementAge(lion));
-console.log(incrementAge(lion));
 console.log(incrementAge(lion));
 console.log(incrementAge(lion));
 console.log(incrementAge(lion));
