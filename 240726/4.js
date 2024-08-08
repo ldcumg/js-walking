@@ -34,8 +34,6 @@ const members = [
 //         i += 1
 //     }
 // }
-    
-  
 
 // // 함수 실행
 // getStudents(members)
